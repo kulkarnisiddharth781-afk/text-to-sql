@@ -298,7 +298,8 @@ export default function Chat() {
   }, [messages, pending]);
 
   const okMessages = messages.filter((m) => m.result?.status === "ok");
-  const selected = messages.find((m) => m.id === selectedId && m.result?.status === "ok") ?? okMessages.at(-1);
+  const selected =
+    messages.find((m) => m.id === selectedId && m.result?.status === "ok") ?? okMessages[okMessages.length - 1];
 
   async function submit(q: string = input) {
     const text = q.trim();
