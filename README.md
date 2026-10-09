@@ -105,7 +105,7 @@ So a typical request costs well under a tenth of a cent, roughly **$0.40 to $0.9
 
 ## Live demo and running locally
 
-**Live demo:** `<paste the deployed link here>` (no login needed; the sample database is built in). The first request after idle time can take about a minute on the free hosting tier.
+**Live demo:** https://text-to-sql-si03.onrender.com (no login needed; the sample database is built in). The first request after idle time can take about a minute on the free hosting tier.
 
 **To run it locally you need:** Python 3.11+, Node.js 20+, and an LLM API key. A free Groq key works: sign up at https://console.groq.com and create a key at https://console.groq.com/keys.
 
